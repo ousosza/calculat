@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
         var edtV1 = findViewById<EditText>(R.id.edtV1)
         var edtV2 = findViewById<EditText>(R.id.edtV2)
         var btnCalculate = findViewById<Button>(R.id.btnCalculate)
